@@ -1,0 +1,18 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "admin",
+			"password": "123"
+		}
+	],
+	"favorites": [
+		{
+			"id": 1,
+			"userId": 1,
+			"characterId": 1,
+			"characterName": "Luke Skywalker"
+		}
+	],
+	"characters": []
+}
