@@ -1,0 +1,17 @@
+.app {
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+
+	background: black;
+
+	overflow: hidden;
+}
+
+.main {
+	flex: 1;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+}

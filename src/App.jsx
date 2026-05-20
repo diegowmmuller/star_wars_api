@@ -12,17 +12,19 @@ import Footer from './components/Footer';
 
 function App() {
 	return (
-		<div>
+		<div className="app">
 			<Navbar />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/starships" element={<StarShipPage />} />
-				<Route path="/vehicles" element={<VehiclePage />} />
-				<Route path="/species" element={<SpeciesPage />} />
-				<Route path="/planets" element={<PlanetsPage />} />
-				<Route path="/people" element={<PeoplePage />} />
-				<Route path="/films" element={<FilmsPage />} />
-			</Routes>
+			<main className="main">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/starships" element={<StarShipPage />} />
+					<Route path="/vehicles" element={<VehiclePage />} />
+					<Route path="/species" element={<SpeciesPage />} />
+					<Route path="/planets" element={<PlanetsPage />} />
+					<Route path="/people" element={<PeoplePage />} />
+					<Route path="/films" element={<FilmsPage />} />
+				</Routes>
+			</main>
 			<Footer />
 		</div>
 	);
