@@ -11,22 +11,22 @@ export const Navbar = () => {
 					Home
 				</Link>
 				<Link className={styles.link} to="/starships">
-					Naves
+					Ships
 				</Link>
 				<Link className={styles.link} to="/vehicles">
-					Veículos
+					Vehicles
 				</Link>
 				<Link className={styles.link} to="/species">
-					Espécies
+					Species
 				</Link>
 				<Link className={styles.link} to="/planets">
-					Planetas
+					Planets
 				</Link>
 				<Link className={styles.link} to="/people">
-					Personagens
+					People
 				</Link>
 				<Link className={styles.link} to="/films">
-					Filmes
+					Films
 				</Link>
 			</nav>
 		</div>

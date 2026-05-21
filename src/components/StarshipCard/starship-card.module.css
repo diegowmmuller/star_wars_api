@@ -1,6 +1,39 @@
 .card {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
 	background-color: #111;
 	padding: 16px;
-	flex: 1;
+	/* flex: 1; */
 	border: 1px solid #3d3d3d;
+	border-radius: 12px;
+}
+
+.shipName {
+	/* color: #ffe81f; */
+	color: #4ea3ff;
+	font-size: 2rem;
+}
+
+.shipInfo {
+	font-size: 1.2rem;
+}
+
+.span {
+	/* color: #4ea3ff; */
+	color: #ffe81f;
+}
+
+.imageContainer {
+	height: 320px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }

@@ -36,8 +36,8 @@ export const StarShipPage = () => {
 	});
 	return (
 		<div>
-			<div>
-				<select value={selectedClasse} onChange={(e) => setSelectedClasse(e.target.value)}>
+			<div className={styles.selectContainer}>
+				<select className={styles.select} value={selectedClasse} onChange={(e) => setSelectedClasse(e.target.value)}>
 					<option value="">All Classes</option>
 
 					{classes.map((classe, index) => (
@@ -46,9 +46,7 @@ export const StarShipPage = () => {
 						</option>
 					))}
 				</select>
-			</div>
-			<div>
-				<select value={selectedModel} onChange={(e) => setSelectedModel(e.target.value)}>
+				<select className={styles.select} value={selectedModel} onChange={(e) => setSelectedModel(e.target.value)}>
 					<option value="">All Models</option>
 					{models.map((model, index) => (
 						<option key={index} value={model}>
