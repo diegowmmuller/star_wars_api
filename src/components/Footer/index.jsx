@@ -19,6 +19,7 @@ function Footer() {
 
 				<div className={styles.right}>
 					<p>Criação: Diego Muller</p>
+					<p>Apenas para fins educativos</p>
 				</div>
 			</div>
 		</footer>
