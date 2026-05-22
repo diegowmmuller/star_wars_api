@@ -1,0 +1,101 @@
+.container {
+	background-color: #0b0b0b;
+
+	border-radius: 12px;
+	border: 1px solid #b4b4b4;
+
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	padding: 24px;
+}
+
+.title {
+	font-size: 1.5rem;
+	text-align: center;
+	letter-spacing: 4px;
+	font-size: 2rem;
+	color: #4ea1ff;
+}
+
+.grid {
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+	gap: 16px;
+}
+
+.card {
+	background: linear-gradient(180deg, #181818, #101010);
+
+	border: 1px solid #303030;
+	border-radius: 10px;
+
+	padding: 20px;
+
+	display: flex;
+	flex-direction: row;
+	gap: 18px;
+
+	position: relative;
+}
+
+.card::before {
+	content: '';
+
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 2px;
+
+	background: #4ea1ff;
+}
+
+.card span {
+	font-size: 0.75rem;
+
+	letter-spacing: 2px;
+
+	color: #ffe81f;
+}
+
+.card p {
+	color: #f5f5f5;
+
+	word-break: break-word;
+}
+
+.imageContainer {
+	height: 320px;
+
+	overflow: hidden;
+
+	border-radius: 8px;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+
+	object-fit: contain;
+}
+
+.filmInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.filmTitle {
+	color: #ffe81f;
+	font-size: 1.9rem;
+}
+
+.episodeId {
+	font-size: 2rem;
+}
