@@ -3,7 +3,6 @@ import styles from './starship-card.module.css';
 export const StarshipCard = ({ starship }) => {
 	const path = starship.url.split('/');
 	const [id] = path.slice(-1);
-	console.log(id);
 
 	return (
 		<Link to={`/starships/${id}`} className={styles.cardLink}>

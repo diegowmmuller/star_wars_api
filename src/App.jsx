@@ -7,6 +7,7 @@ import { SpeciesPage } from './pages/SpeciesPage';
 import { PlanetsPage } from './pages/PlanetsPage';
 import { PeoplePage } from './pages/PeoplePage';
 import { FilmsPage } from './pages/FilmsPage';
+import { FilmDetails } from './pages/FIlmDetails';
 import { Navbar } from './components/Navbar';
 import Footer from './components/Footer';
 import { StarshipDetails } from './pages/StarshipDetails';
@@ -25,6 +26,7 @@ function App() {
 					<Route path="/planets" element={<PlanetsPage />} />
 					<Route path="/people" element={<PeoplePage />} />
 					<Route path="/films" element={<FilmsPage />} />
+					<Route path="/films/:id" element={<FilmDetails />} />
 				</Routes>
 			</main>
 			<Footer />
