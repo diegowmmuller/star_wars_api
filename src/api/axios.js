@@ -16,6 +16,10 @@ export const getFilmByUrl = (url) => {
 	return axios.get(url);
 };
 
+export const getCharacterByUrl = (url) => {
+	return axios.get(url);
+};
+
 export const getFilmById = (id) => {
 	return axios.get(`https://swapi.info/api/films/${id}`);
 };
